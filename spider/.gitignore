@@ -1,0 +1,7 @@
+# 爬虫数据缓存
+agents.json
+agents_*_backup.json
+agents_*_old.json
+
+# 提示词快照
+debug/

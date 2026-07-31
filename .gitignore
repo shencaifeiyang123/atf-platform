@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# 日志文件
+*.log
+*.err
+.platform_run.*.log
+.run_*.log
+.run_*.err
+
+# Claude Code 本地工具权限白名单（每个开发者一份，不入库）
+.claude/settings.local.json
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 打包输出
+dist/
+*.zip
+
+# 运行时临时文件
+*.pid
+*.tmp

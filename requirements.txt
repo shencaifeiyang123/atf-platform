@@ -1,0 +1,11 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+sse-starlette>=2.0.0
+aiofiles>=23.2.1
+
+# ---- 可选依赖：百炼智能体导入功能 ----
+# 如需使用「从百炼导入」功能，请取消下面一行的注释：
+# selenium>=4.0.0
